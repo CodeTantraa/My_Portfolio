@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Rangari</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <!------------- HEADER SECTION ------------>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1><span>R.</span>R.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#main">Education</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-fill" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-fill" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                Hi, I am <span>Rishabh</span>
+                <div>and I'm a passionate
+                <span id="element">Front-end Developer</span></div>
+            </div>
+            <a href="Rishabh CV.pdf" download class="click"> Download CV</a>
+        </div>
+    </div>
+
+    <!------------- MAIN SECTION ------------>
+    <div id="main">
+        <div class="container">
+            <div class="left-col">
+                <img src="./profile.jpg" alt="">
+            </div>
+            <div class="right-col">
+                <h1>About Me</h1>
+                <p>"I am a motivated and dedicated developer eager to embark on a challenging career within an innovative organization. My goal is to contribute my technical expertise and passion for problem-solving in a dynamic environment that fosters both personal and professional growth. Seeking opportunities to enhance my creativity, resourcefulness, and interpersonal skills, I am excited about the prospect of making meaningful contributions to a team that values collaboration, innovation, and continuous learning".</p>
+                <div class="title">
+                    <h3 class="sub-title active-link" onclick="opentab('education')">Education</h3>
+                    <h3 class="sub-title" onclick="opentab('technical_skills')">Technical Skills</h3>
+                    <h3 class="sub-title" onclick="opentab('hardware_skills')">Hardware Skills</h3>
+                    <h3 class="sub-title" onclick="opentab('experience')">Experience</h3>
+                </div>
+                <div class="sub-details active-tab" id="education">
+                    <ul>
+                        <li><span>Bachelor of Engineering (BE)</span><br>Electronics And Telecommunication Engineering [2020] <br><p>Jhulelal Institute of Technology Nagpur</p><p>Projects: Orange Segregation Machine using color sensors </p></li>
+                        <li><br><span>Diploma</span><br>Electronics Engineering [2016] <br><p>Priyadarshini Polytechnic Nagpur</p><p>Projects: Braile Communicator</p></li>
+                        <li><br><span>Matriculation</span><br>D.A.V High School [2010] <br><p>MSB Nagpur Division</p></li>
+                    </ul>
+                </div>
+                <div class="sub-details" id="technical_skills">
+                    <ul>
+                        <li><span>Programming Languages:</span><br>JavaScript (Intermediate)</li>
+                        <li><br><span>Web Technologies:</span><br>HTML, CSS, React (Begainer), Node.js (Intermediate)</li>
+                        <li><br><span>Databases:</span><br>MySQL (Advance), MongoDB (Intermediate)</li>
+                        <li><br><span>Tools:</span><br>Git, Visual Studio Code</li>
+                    </ul>
+                </div>
+                <div class="sub-details" id="hardware_skills">
+                    <ul>
+                        <li><span>PCB Design and Mounting:</span><br>Designing and mounting a PCB (Printed Circuit Board) involves several steps, from schematic design to final assembly. Schematic Design is the first step this is made using PCB design software like Eagle PCB. After designing the next step is component selection based on functionality and specifications also considering factors such as size, power requirements, operating temperature, and compatibility with the PCB circuit and device. </li>
+                        <li><br><span>Sensor Testing and Calibration:</span><br>Testing sensors involves verifying their functionality, accuracy, and reliability under various conditions. Some Sensor names are Temperature Sensor, Pressure Sensor, Light Sensor, Humidity Sensor, Motion Sensor, etc.</li>
+                        <li><br><span>Electronics Troubleshooting:</span><br>
+                            Troubleshooting electronic components and devices involves a systematic approach to identifying and resolving issues. Here are some key points Identifying the Problem, Performing Visual Inspection, Checking Power Supply or Cable, Testing Path Components, and Replacing Suspicious Components. </li>
+                        <li><br><span>Tools:</span><br>Soldering Iron and Soldering Station, Multimeter, Breadboard,<br> PCB Design Software, Oscilloscope, Wire Strippers etc.</li>
+                    </ul>
+                </div>
+                <div class="sub-details" id="experience">
+                    <ul>
+                        <li><span>Lexis Business Insights, Blog Publisher</span><br>Sep 2021 - Mar 2023 
+                            <ol>
+                                <li>I was a PR editor and Blogs Publisher.</li>
+                                <li>A Blog Must Always Be Dynamic in terms of Structure and front view.</li>
+                                <li>The Blog's Leading Star Is Its Content and Headlines Should Be Attention Grabbers.</li>
+                            </ol>
+                        </li>
+                        <li><br><span>Reveals Exims Logistics Pvt Ltd, Operation Head and Technical Assistant</span><br>Oct 2020 - Sep 2021
+                            <ol>
+                                <li>Having technical responsibilities as I was appointed as Technical Assistant and Computer Networking.</li>
+                                <li>The steps include order fulfillment, packing, shipping, delivery, and customer service related to delivery. Outbound Logistics Activities.</li>
+                            </ol>
+                        </li>
+                        <li><br><span>Caliber Technology, Laboratory Assistant </span><br>May 2016 - Nov 2017
+                            <ol>
+                                <li>PCB Making, Testing, Mounting, modeling, etc. are the Key points where I was work.</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------- SERVICES SECTION ------------>
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+        <div class="services-block">
+            <div>
+                <h2>Website Development</h2>
+                <p>From sleek corporate websites to engaging e-commerce platforms, I create custom web solutions using cutting-edge technologies like HTML5, CSS3, JavaScript, API and React.js.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>JavaScript Developer</h2>
+                <p>Ensuring your website looks impeccable and functions flawlessly across all devices, from desktops to smartphones and tablets.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>React Developer</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minus molestiae sit totam eum quae deleniti explicabo vel atque porro, illum nam?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>API's Handling</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minus molestiae sit totam eum quae deleniti explicabo vel atque porro, illum nam?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!----------- PORTFOLIO SECTION ------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-block">
+                <div class="work">
+                    <img src="./work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Project 0</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nostrum ducimus corrupti adipisci impedit!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nostrum ducimus corrupti adipisci impedit!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nostrum ducimus corrupti adipisci impedit!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" href="#">See more</button>
+        </div>
+    </div>
+
+    <!----------- CONTACT SECTION ------------>
+    <div id="contact">
+        <div class="container">
+            <div class="footer">
+                <div id="left">
+                    <h1>Contact Me</h1>
+                    <p><i class="ri-mail-line"></i> rishabhrangariofficial@gmail.com</p>
+                    <p><i class="ri-phone-line"></i> +91 8421331847</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rishabhrangari/"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="https://github.com/CodeTantraa"><i class="ri-github-fill"></i></a>
+                        <a href="https://wa.me/8421331847"><i class="ri-whatsapp-line"></i></a>
+                        <a href="https://www.facebook.com/Rishabh.Rangari21/"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="https://www.instagram.com/ri_shabh_/"><i class="ri-instagram-line"></i></a>
+                        <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+                    </div>
+                    <a href="Rishabh CV.pdf" download class="click"> Download CV</a>
+                </div>
+                <div id="right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="You name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea type="text" name="Message" placeholder="Your message" rows="5"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                    <div id="reply"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Innovation framed, Copyright named. I <i class="ri-heart-3-fill"></i> Coding.</p>
+    </div>
+
+    <!------------ JAVASCRIPT ------------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
